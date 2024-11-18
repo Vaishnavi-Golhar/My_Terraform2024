@@ -1,19 +1,21 @@
-************************************************
-# Installation of AWS Cli
+# **Installation of AWS CLI**
 
-Link: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+**Link:** [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-Steps to Install CLi
+### Steps to Install AWS CLI
 
- curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+```bash
+# Download the AWS CLI
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
- sudo apt install unzip
+# Install unzip
+sudo apt install unzip
 
- unzip awscliv2.zip
+# Unzip the AWS CLI package
+unzip awscliv2.zip
 
- sudo ./aws/install
+# Run the AWS CLI installer
+sudo ./aws/install
 
- sudo aws --version
-
-
- *************************************************
+# Verify the AWS CLI installation
+sudo aws --version
