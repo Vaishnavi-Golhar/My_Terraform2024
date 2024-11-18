@@ -45,14 +45,17 @@ Default output format [None]: json
 Check the AWS CLI version and list IAM users:
 
 aws --version
+
 aws iam list-users
 
 Check configuration files:
 
 cat ~/.aws/config
+
 cat ~/.aws/credentials
 
 ## Step 4: Test AWS CLI Commands
 
 aws s3 ls
+
 aws ec2 describe-instances
